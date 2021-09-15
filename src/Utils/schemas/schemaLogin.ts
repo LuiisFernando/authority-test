@@ -1,8 +1,8 @@
 import * as Yup from 'yup';
 
 const schema = Yup.object().shape({
-    user: Yup.string().trim().min(4, 'Digite o usuário').required('Campo obrigatório'),
-    password: Yup.string().trim().min(4, 'Digite a senha').required('Campo obrigatório'),
+    user: Yup.string().trim().min(4, 'Type at least 4 char').required('Required Field'),
+    password: Yup.string().trim().min(4, 'Type at least 4 char').required('Required Field'),
 });
 
 export default schema;
