@@ -4,7 +4,7 @@ Follow the instructions to run the program.
 
 1. Create a new file with name ```.env``` with same informations as ```.env.example``` and input informations needed to connect with database in the root of the project.
 
-2. Create a new database and tables to run the program, the file createDbAndTables.sql have the queries.
+2. Create a new database and tables to run the program, the file createDbAndTables.sql contains the queries.
 
 3. install dependencies with ```npm install``` or  ```yarn```
 
