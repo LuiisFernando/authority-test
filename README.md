@@ -6,8 +6,8 @@ Follow the instructions to run the program.
 
 2. Create a new database and tables to run the program, the file createDbAndTables.sql contains the queries.
 
-3. install dependencies with ```npm install``` or  ```yarn```
+3. Install dependencies with ```npm install``` or  ```yarn```
 
-4. run the program with ```npm run dev``` or ```yarn dev```
+4. Run the program with ```npm run dev``` or ```yarn dev```
 
-5. access http://localhost:3000/.
+5. Access the application at url http://localhost:3000/.
