@@ -11,3 +11,5 @@ Follow the instructions to run the program.
 4. Run the program with ```npm run dev``` or ```yarn dev```
 
 5. Access the application at url http://localhost:3000/.
+
+6. Install and run a postgress image with the following command ```docker run --name database -e POSTGRESS_PASSWORD=docker -p 5432:5432 -d postgres:11.5-alpine```
