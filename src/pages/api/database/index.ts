@@ -1,4 +1,3 @@
-// import Sequelize from 'sequelize';
 import { Sequelize } from 'sequelize';
 
 const conn = new Sequelize({
