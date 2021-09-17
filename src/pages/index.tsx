@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Router from 'next/router';
@@ -26,7 +25,6 @@ const Home: NextPage = (props: any) => {
     try {
       await signIn(data);
     } catch (e: any) {
-      console.log('aui')
       toast.error(e.response?.data?.message);
     }
   };
