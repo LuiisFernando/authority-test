@@ -33,7 +33,6 @@ async function auth(authRequest: AuthRequest): Promise<Data | Error> {
 
             const { id, name } = result[0];
             const secret = process.env.SECRETPASS || 'S3CR3T3'
-            console.log(secret);
             return {
                 access_token: jwt.sign({ id, name }, secret, { expiresIn: process.env.EXPIRESIN }) //
             }
