@@ -16,7 +16,7 @@ export default function Input({ name, placeholder, ...rest }: any) {
                 {...field}
                 {...rest}
             />
-            {isDirty && meta.touched && meta.error ? (
+            {isDirty && meta.error ? (
                 <div className="error-message">{meta.error}</div>
             ) : ''}
         </Styled.Container>
